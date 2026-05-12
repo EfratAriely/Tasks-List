@@ -65,7 +65,5 @@ export class Tasks implements OnInit {
 
   toggle(task: Task) {
     task.isCompleted = !task.isCompleted
-
-    // this.tasksService.updateTask(task).subscribe();
   }
 }

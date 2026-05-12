@@ -25,7 +25,4 @@ export class TasksService {
     return this.http.post<Task>(this.apiUrl, task);
   }
 
-//   updateTask(task: Task) {
-//   return this.http.put(`${this.apiUrl}/${task.id}`, task);
-// }
 }
